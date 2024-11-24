@@ -1,7 +1,11 @@
 .all_form{
-    @apply  bg-transparent border-[3px] border-solid border-[#1d6677] inline-block
+    @apply  bg-transparent border-[3px] border-solid border-[#fec476] inline-block
 
-    rounded-md  
+    rounded-md 
+    
+    shadow-[0px_4px_26px_-4px_#ffcc87]
+
+    
 }
 
 .madina_main_form_all{
@@ -50,7 +54,7 @@ input{
 
 .pass_p{
 
-    @apply mt-7
+    @apply mt-5
 }
 
 
@@ -96,7 +100,7 @@ h3{
 }
 
 h4{
-    @apply text-red-500 text-[14px] font-medium hover:text-[#f1f1f1] mt-1
+    @apply text-red-500 text-[12px] font-medium hover:text-[#f1f1f1] mt-1
 
 }
 
@@ -108,6 +112,11 @@ span{
 
     @apply text-[#fec476] text-[15px] font-medium
 
-    hover:text-green-400
+    hover:text-green-500
 
+}
+
+.error{
+
+    @apply mt-1 text-[10px] font-medium text-[#f3444d]
 }
