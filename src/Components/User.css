@@ -1,0 +1,113 @@
+.all_form{
+    @apply  bg-transparent border-[3px] border-solid border-[#1d6677] inline-block
+
+    rounded-md  
+}
+
+.madina_main_form_all{
+
+    @apply flex justify-center items-center
+}
+
+
+.madina_form{
+
+    @apply flex gap-2
+}
+
+.left_side img{
+
+    @apply w-[310px] h-[380px]
+   
+}
+
+.main_form{
+
+    @apply p-4 bg-[#1d6677] w-[310px] 
+}
+
+h1{
+    @apply text-[#fec476] text-[28px] font-bold text-center
+}
+
+h2{
+
+    @apply text-[#fec476] text-[14px] font-normal mt-5
+}
+
+
+input{
+
+    @apply bg-[#f1f1f1] w-full h-[28px] mt-[2px] rounded-sm p-2
+
+    text-[13px] outline-none text-[#2b2a2a] font-medium
+}   
+
+.email_p{
+
+    @apply mt-8
+}
+
+.pass_p{
+
+    @apply mt-7
+}
+
+
+.lg{
+
+    @apply flex justify-between
+}
+
+.lg .l{
+
+    @apply bg-white w-[100px] h-[1px]
+}
+
+.c_k{
+
+    @apply flex gap-1 items-center
+}
+
+.p_p{
+
+    @apply flex justify-end
+}
+
+.b{
+ 
+    @apply bg-[#fec476] p-1 rounded-md w-full text-[18px] font-bold hover:bg-white
+    
+    mt-2
+}
+
+.checkbox {
+
+    @apply w-[17px] h-[17px]
+}
+
+h3{
+    @apply text-[13px] font-normal text-[#f1f1f1] 
+}
+
+.c_k{
+
+    @apply mt-8
+}
+
+h4{
+    @apply text-red-500 text-[14px] font-medium hover:text-[#f1f1f1] mt-1
+
+}
+
+p{
+    @apply text-[#f1f1f1] mt-4 text-[15px] font-medium
+}
+
+span{
+
+    @apply text-[#fec476] text-[15px] font-medium
+
+    hover:text-green-400
+
+}
